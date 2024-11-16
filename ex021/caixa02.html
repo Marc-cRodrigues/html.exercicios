@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: #ffebcd9d;
+            margin: 0px;
+        }
+        header{
+            background-color: aquamarine;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        main{
+            background-color: #a16900;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        article{
+            background-color: #02a74c;
+        }
+
+        article > aside{
+            background-color: cornflowerblue;
+        }
+
+        nav{
+            background-color:slategray;
+            color: white;
+            box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.562);
+            
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        nav >a:hover {
+            text-decoration: underline;
+        }
+
+        div#bola{
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site aí!</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    
+        <main>
+            <section id="assuntos">
+                <p>Futebol Jogos Cinema</p>
+            </section>
+            <section id="noticias">
+                <article>
+                    <h2>Sobre mim:</h2>
+                    
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur accusamus deserunt tempore doloremque ut hic, ex quod quia dolores exercitationem cumque praesentium earum, dolorem libero ducimus provident ea ad at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sapiente ipsa corporis perspiciatis iusto, nostrum autem minima asperiores sint dolores dolorum qui fugit ex accusantium quia aperiam blanditiis non! Officiis.</p>
+                    <aside>
+                        <p>
+                            Texto por Vera Viel
+                        </p>
+                    </aside>    
+                    
+                </article>
+
+            </section>
+        </main>
+    <footer>
+        <p>Desenvolvido por Marc Rodrigues</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
